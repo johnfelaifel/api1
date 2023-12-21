@@ -7,11 +7,12 @@ if(count($routesArray) == 0){
         'result' => 'Not found'
     );
 } else {
-    $json = array(
-        'status' => 200,
-        'result' => $_SERVER["REQUEST_METHOD"]        
-    );
+    switch($_SERVER["REQUEST_METHOD"]){
+        case "GET":
+            include "services/get.php";
+            break;
+        
+    }
 }
-echo json_encode($json, http_response_code($json["status"]));
 
 

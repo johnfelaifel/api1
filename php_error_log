@@ -1,0 +1,30 @@
+[21-Dec-2023 20:55:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=*&linkTo=nombre&search=CAFESALUD WHERE nombre LIKE '%CAFESALUD%'' at line 1 in C:\wamp64\www\api1\models\get.model.php:24
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(24): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(23): GetModel::getDataSearch('arl?select=*&li...', '*', 'nombre', 'CAFESALUD')
+#2 C:\wamp64\www\api1\routes\services\get.php(11): GetController::getDataSearch('arl?select=*&li...', '*', 'nombre', 'CAFESALUD')
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 24
+[21-Dec-2023 20:59:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=*&linkTo=nombre&search=CAFESALUD WHERE nombre LIKE '%CAFESALUD%'' at line 1 in C:\wamp64\www\api1\models\get.model.php:24
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(24): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(23): GetModel::getDataSearch('arl?select=*&li...', '*', 'nombre', 'CAFESALUD')
+#2 C:\wamp64\www\api1\routes\services\get.php(11): GetController::getDataSearch('arl?select=*&li...', '*', 'nombre', 'CAFESALUD')
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 24
+[21-Dec-2023 21:09:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?select=*&linkTo=nombre' at line 1 in C:\wamp64\www\api1\models\get.model.php:9
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(9): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(8): GetModel::getData('arl?select=*&li...')
+#2 C:\wamp64\www\api1\routes\services\get.php(13): GetController::getData('arl?select=*&li...')
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 9
