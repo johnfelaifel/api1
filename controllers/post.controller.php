@@ -1,29 +1,22 @@
 <?php
-require_once "models/get.model.php";
+require_once "models/post.model.php";
 
-class GetController
+class PostController
 {
-    static public function getData($table)
+    static public function postData($table,$data)
     {
-        $response = GetModel::getData($table);        
-        $return = new GetController();
+        $response = PostModel::postData($table,$data);                
+        $return = new PostController();
         $return -> fncResponse($response);        
     }
 
-    static public function getDataSearch($table,$select,$linkTo,$search)
-    {
-        $response = GetModel::getDataSearch($table,$select,$linkTo,$search);        
-        $return = new GetController();
-        $return -> fncResponse($response);      
-    }    
 
     //Respuestas del Controlador
     public function fncResponse($response)
     {
         if(!empty($response)){
             $json = array(
-                'status' => 200,
-                'count' => count($response),
+                'status' => 200,                
                 'result' => $response
             );            
         } else {

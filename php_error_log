@@ -28,3 +28,339 @@ Stack trace:
 #5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
 #6 {main}
   thrown in C:\wamp64\www\api1\models\get.model.php on line 9
+[22-Dec-2023 10:56:10 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\controllers\get.controller.php on line 16
+[22-Dec-2023 10:56:10 America/Bogota] PHP Stack trace:
+[22-Dec-2023 10:56:10 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 10:56:10 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 10:56:10 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 10:56:10 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:12
+[22-Dec-2023 10:56:10 America/Bogota] PHP   5. GetController::getDataSearch($table = [0 => 'arl', 1 => 'select=nombre&linkTo=nombre&search=CAFESALUD'], $select = 'nombre', $linkTo = 'nombre', $search = 'CAFESALUD') C:\wamp64\www\api1\routes\services\get.php:12
+[22-Dec-2023 10:56:19 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\models\get.model.php on line 7
+[22-Dec-2023 10:56:19 America/Bogota] PHP Stack trace:
+[22-Dec-2023 10:56:19 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 10:56:19 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 10:56:19 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 10:56:19 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:12
+[22-Dec-2023 10:56:19 America/Bogota] PHP   5. GetController::getData($table = [0 => 'arl']) C:\wamp64\www\api1\routes\services\get.php:14
+[22-Dec-2023 10:56:19 America/Bogota] PHP   6. GetModel::getData($table = [0 => 'arl']) C:\wamp64\www\api1\controllers\get.controller.php:8
+[22-Dec-2023 10:56:19 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simec.array' doesn't exist in C:\wamp64\www\api1\models\get.model.php:9
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(9): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(8): GetModel::getData(Array)
+#2 C:\wamp64\www\api1\routes\services\get.php(14): GetController::getData(Array)
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 9
+[22-Dec-2023 11:46:47 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\models\get.model.php on line 7
+[22-Dec-2023 11:46:47 America/Bogota] PHP Stack trace:
+[22-Dec-2023 11:46:47 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 11:46:47 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 11:46:47 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 11:46:47 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:12
+[22-Dec-2023 11:46:47 America/Bogota] PHP   5. GetController::getData($table = [0 => 'eps']) C:\wamp64\www\api1\routes\services\get.php:14
+[22-Dec-2023 11:46:47 America/Bogota] PHP   6. GetModel::getData($table = [0 => 'eps']) C:\wamp64\www\api1\controllers\get.controller.php:8
+[22-Dec-2023 11:46:47 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simec.array' doesn't exist in C:\wamp64\www\api1\models\get.model.php:9
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(9): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(8): GetModel::getData(Array)
+#2 C:\wamp64\www\api1\routes\services\get.php(14): GetController::getData(Array)
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 9
+[22-Dec-2023 11:47:53 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\models\get.model.php on line 7
+[22-Dec-2023 11:47:53 America/Bogota] PHP Stack trace:
+[22-Dec-2023 11:47:53 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 11:47:53 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 11:47:53 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 11:47:53 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:12
+[22-Dec-2023 11:47:53 America/Bogota] PHP   5. GetController::getData($table = [0 => 'api']) C:\wamp64\www\api1\routes\services\get.php:14
+[22-Dec-2023 11:47:53 America/Bogota] PHP   6. GetModel::getData($table = [0 => 'api']) C:\wamp64\www\api1\controllers\get.controller.php:8
+[22-Dec-2023 11:47:53 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simec.array' doesn't exist in C:\wamp64\www\api1\models\get.model.php:9
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(9): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(8): GetModel::getData(Array)
+#2 C:\wamp64\www\api1\routes\services\get.php(14): GetController::getData(Array)
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 9
+[22-Dec-2023 11:47:58 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\models\get.model.php on line 7
+[22-Dec-2023 11:47:58 America/Bogota] PHP Stack trace:
+[22-Dec-2023 11:47:58 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 11:47:58 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 11:47:58 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 11:47:58 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:12
+[22-Dec-2023 11:47:58 America/Bogota] PHP   5. GetController::getData($table = [0 => 'eps']) C:\wamp64\www\api1\routes\services\get.php:14
+[22-Dec-2023 11:47:58 America/Bogota] PHP   6. GetModel::getData($table = [0 => 'eps']) C:\wamp64\www\api1\controllers\get.controller.php:8
+[22-Dec-2023 11:47:58 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simec.array' doesn't exist in C:\wamp64\www\api1\models\get.model.php:9
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(9): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(8): GetModel::getData(Array)
+#2 C:\wamp64\www\api1\routes\services\get.php(14): GetController::getData(Array)
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 9
+[22-Dec-2023 11:49:36 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\models\get.model.php on line 7
+[22-Dec-2023 11:49:36 America/Bogota] PHP Stack trace:
+[22-Dec-2023 11:49:36 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 11:49:36 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 11:49:36 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 11:49:36 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:12
+[22-Dec-2023 11:49:36 America/Bogota] PHP   5. GetController::getData($table = [0 => 'eps']) C:\wamp64\www\api1\routes\services\get.php:15
+[22-Dec-2023 11:49:36 America/Bogota] PHP   6. GetModel::getData($table = [0 => 'eps']) C:\wamp64\www\api1\controllers\get.controller.php:8
+[22-Dec-2023 11:49:36 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simec.array' doesn't exist in C:\wamp64\www\api1\models\get.model.php:9
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(9): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(8): GetModel::getData(Array)
+#2 C:\wamp64\www\api1\routes\services\get.php(15): GetController::getData(Array)
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 9
+[22-Dec-2023 11:50:54 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\models\get.model.php on line 7
+[22-Dec-2023 11:50:54 America/Bogota] PHP Stack trace:
+[22-Dec-2023 11:50:54 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 11:50:54 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 11:50:54 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 11:50:54 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:12
+[22-Dec-2023 11:50:54 America/Bogota] PHP   5. GetController::getData($table = [0 => 'eps']) C:\wamp64\www\api1\routes\services\get.php:15
+[22-Dec-2023 11:50:54 America/Bogota] PHP   6. GetModel::getData($table = [0 => 'eps']) C:\wamp64\www\api1\controllers\get.controller.php:8
+[22-Dec-2023 11:50:54 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simec.array' doesn't exist in C:\wamp64\www\api1\models\get.model.php:9
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(9): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(8): GetModel::getData(Array)
+#2 C:\wamp64\www\api1\routes\services\get.php(15): GetController::getData(Array)
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 9
+[22-Dec-2023 11:52:56 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\controllers\get.controller.php on line 8
+[22-Dec-2023 11:52:56 America/Bogota] PHP Stack trace:
+[22-Dec-2023 11:52:56 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 11:52:56 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 11:52:56 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 11:52:56 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:12
+[22-Dec-2023 11:52:56 America/Bogota] PHP   5. GetController::getData($table = [0 => 'eps']) C:\wamp64\www\api1\routes\services\get.php:13
+[22-Dec-2023 11:52:56 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\models\get.model.php on line 7
+[22-Dec-2023 11:52:56 America/Bogota] PHP Stack trace:
+[22-Dec-2023 11:52:56 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 11:52:56 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 11:52:56 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 11:52:56 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:12
+[22-Dec-2023 11:52:56 America/Bogota] PHP   5. GetController::getData($table = [0 => 'eps']) C:\wamp64\www\api1\routes\services\get.php:13
+[22-Dec-2023 11:52:56 America/Bogota] PHP   6. GetModel::getData($table = [0 => 'eps']) C:\wamp64\www\api1\controllers\get.controller.php:9
+[22-Dec-2023 11:52:56 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simec.array' doesn't exist in C:\wamp64\www\api1\models\get.model.php:9
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(9): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(9): GetModel::getData(Array)
+#2 C:\wamp64\www\api1\routes\services\get.php(13): GetController::getData(Array)
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 9
+[22-Dec-2023 11:53:14 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\controllers\get.controller.php on line 8
+[22-Dec-2023 11:53:14 America/Bogota] PHP Stack trace:
+[22-Dec-2023 11:53:14 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 11:53:14 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 11:53:14 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 11:53:14 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:12
+[22-Dec-2023 11:53:14 America/Bogota] PHP   5. GetController::getData($table = [0 => 'eps']) C:\wamp64\www\api1\routes\services\get.php:13
+[22-Dec-2023 11:53:53 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\routes\services\get.php on line 5
+[22-Dec-2023 11:53:53 America/Bogota] PHP Stack trace:
+[22-Dec-2023 11:53:53 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 11:53:53 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 11:53:53 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 11:53:53 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:12
+[22-Dec-2023 11:58:09 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\models\get.model.php on line 7
+[22-Dec-2023 11:58:09 America/Bogota] PHP Stack trace:
+[22-Dec-2023 11:58:09 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 11:58:09 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 11:58:09 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 11:58:09 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:12
+[22-Dec-2023 11:58:09 America/Bogota] PHP   5. GetController::getData($table = [0 => 'eps']) C:\wamp64\www\api1\routes\services\get.php:14
+[22-Dec-2023 11:58:09 America/Bogota] PHP   6. GetModel::getData($table = [0 => 'eps']) C:\wamp64\www\api1\controllers\get.controller.php:8
+[22-Dec-2023 11:58:09 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simec.array' doesn't exist in C:\wamp64\www\api1\models\get.model.php:9
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(9): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(8): GetModel::getData(Array)
+#2 C:\wamp64\www\api1\routes\services\get.php(14): GetController::getData(Array)
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 9
+[22-Dec-2023 11:59:31 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\models\get.model.php on line 7
+[22-Dec-2023 11:59:31 America/Bogota] PHP Stack trace:
+[22-Dec-2023 11:59:31 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 11:59:31 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 11:59:31 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 11:59:31 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:12
+[22-Dec-2023 11:59:31 America/Bogota] PHP   5. GetController::getData($table = [0 => 'eps']) C:\wamp64\www\api1\routes\services\get.php:16
+[22-Dec-2023 11:59:31 America/Bogota] PHP   6. GetModel::getData($table = [0 => 'eps']) C:\wamp64\www\api1\controllers\get.controller.php:8
+[22-Dec-2023 11:59:31 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simec.array' doesn't exist in C:\wamp64\www\api1\models\get.model.php:9
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(9): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(8): GetModel::getData(Array)
+#2 C:\wamp64\www\api1\routes\services\get.php(16): GetController::getData(Array)
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 9
+[22-Dec-2023 12:01:17 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simec.epss' doesn't exist in C:\wamp64\www\api1\models\get.model.php:9
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(9): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(8): GetModel::getData('epss')
+#2 C:\wamp64\www\api1\routes\services\get.php(14): GetController::getData('epss')
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 9
+[22-Dec-2023 12:16:12 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simec.epsa' doesn't exist in C:\wamp64\www\api1\models\get.model.php:30
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(30): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(15): GetModel::getDataSearch('epsa', 'nombre', 'nombre', 'CAFESAL')
+#2 C:\wamp64\www\api1\routes\services\get.php(12): GetController::getDataSearch('epsa', 'nombre', 'nombre', 'CAFESAL')
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 30
+[22-Dec-2023 12:16:33 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simec.epsss' doesn't exist in C:\wamp64\www\api1\models\get.model.php:15
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(15): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(8): GetModel::getData('epsss')
+#2 C:\wamp64\www\api1\routes\services\get.php(14): GetController::getData('epsss')
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 15
+[22-Dec-2023 12:16:44 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simec.epsa' doesn't exist in C:\wamp64\www\api1\models\get.model.php:15
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(15): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(8): GetModel::getData('epsa')
+#2 C:\wamp64\www\api1\routes\services\get.php(14): GetController::getData('epsa')
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 15
+[22-Dec-2023 12:20:28 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nombres' in 'where clause' in C:\wamp64\www\api1\models\get.model.php:22
+Stack trace:
+#0 C:\wamp64\www\api1\models\get.model.php(22): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\get.controller.php(15): GetModel::getDataSearch('eps', 'nombre', 'nombres', 'CAFESAL')
+#2 C:\wamp64\www\api1\routes\services\get.php(12): GetController::getDataSearch('eps', 'nombre', 'nombres', 'CAFESAL')
+#3 C:\wamp64\www\api1\routes\routes.php(12): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\get.model.php on line 22
+[22-Dec-2023 22:22:49 America/Bogota] PHP Fatal error:  Uncaught Error: Class "PostController" not found in C:\wamp64\www\api1\routes\services\post.php:7
+Stack trace:
+#0 C:\wamp64\www\api1\routes\routes.php(15): include()
+#1 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#2 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#3 {main}
+  thrown in C:\wamp64\www\api1\routes\services\post.php on line 7
+[22-Dec-2023 22:27:57 America/Bogota] PHP Warning:  Undefined variable $table in C:\wamp64\www\api1\routes\services\post.php on line 10
+[22-Dec-2023 22:27:57 America/Bogota] PHP Stack trace:
+[22-Dec-2023 22:27:57 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 22:27:57 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 22:27:57 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 22:27:57 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:15
+[22-Dec-2023 22:29:27 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\models\connection.php on line 34
+[22-Dec-2023 22:29:27 America/Bogota] PHP Stack trace:
+[22-Dec-2023 22:29:27 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 22:29:27 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 22:29:27 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 22:29:27 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:16
+[22-Dec-2023 22:29:27 America/Bogota] PHP   5. PostController::postData($table = [0 => 'materias'], $data = []) C:\wamp64\www\api1\routes\services\post.php:10
+[22-Dec-2023 22:29:27 America/Bogota] PHP   6. PostModel::postData($table = [0 => 'materias'], $data = []) C:\wamp64\www\api1\controllers\post.controller.php:8
+[22-Dec-2023 22:29:27 America/Bogota] PHP   7. Connection::getColumnsData($table = [0 => 'materias']) C:\wamp64\www\api1\models\post.model.php:8
+[22-Dec-2023 22:54:15 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\models\connection.php on line 34
+[22-Dec-2023 22:54:15 America/Bogota] PHP Stack trace:
+[22-Dec-2023 22:54:15 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 22:54:15 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 22:54:15 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 22:54:15 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:16
+[22-Dec-2023 22:54:15 America/Bogota] PHP   5. PostController::postData($table = [0 => 'materias'], $data = ['title' => 'mi materia', 'description' => 'la DEScripcion que le di']) C:\wamp64\www\api1\routes\services\post.php:10
+[22-Dec-2023 22:54:15 America/Bogota] PHP   6. PostModel::postData($table = [0 => 'materias'], $data = ['title' => 'mi materia', 'description' => 'la DEScripcion que le di']) C:\wamp64\www\api1\controllers\post.controller.php:8
+[22-Dec-2023 22:54:15 America/Bogota] PHP   7. Connection::getColumnsData($table = [0 => 'materias']) C:\wamp64\www\api1\models\post.model.php:8
+[22-Dec-2023 22:56:42 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\models\post.model.php on line 10
+[22-Dec-2023 22:56:42 America/Bogota] PHP Stack trace:
+[22-Dec-2023 22:56:42 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 22:56:42 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 22:56:42 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 22:56:42 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:16
+[22-Dec-2023 22:56:42 America/Bogota] PHP   5. PostController::postData($table = [0 => 'materias'], $data = ['title' => 'mi materia', 'description' => 'la DEScripcion que le di']) C:\wamp64\www\api1\routes\services\post.php:10
+[22-Dec-2023 22:56:42 America/Bogota] PHP   6. PostModel::postData($table = [0 => 'materias'], $data = ['title' => 'mi materia', 'description' => 'la DEScripcion que le di']) C:\wamp64\www\api1\controllers\post.controller.php:8
+[22-Dec-2023 22:56:42 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'courses.array' doesn't exist in C:\wamp64\www\api1\models\post.model.php:14
+Stack trace:
+#0 C:\wamp64\www\api1\models\post.model.php(14): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\post.controller.php(8): PostModel::postData(Array, Array)
+#2 C:\wamp64\www\api1\routes\services\post.php(10): PostController::postData(Array, Array)
+#3 C:\wamp64\www\api1\routes\routes.php(16): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\post.model.php on line 14
+[22-Dec-2023 22:57:49 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'courses.materias' doesn't exist in C:\wamp64\www\api1\models\post.model.php:11
+Stack trace:
+#0 C:\wamp64\www\api1\models\post.model.php(11): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\post.controller.php(8): PostModel::postData(Array, Array)
+#2 C:\wamp64\www\api1\routes\services\post.php(10): PostController::postData(Array, Array)
+#3 C:\wamp64\www\api1\routes\routes.php(16): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\post.model.php on line 11
+[22-Dec-2023 23:00:32 America/Bogota] PHP Warning:  Array to string conversion in C:\wamp64\www\api1\models\post.model.php on line 7
+[22-Dec-2023 23:00:32 America/Bogota] PHP Stack trace:
+[22-Dec-2023 23:00:32 America/Bogota] PHP   1. {main}() C:\wamp64\www\api1\index.php:0
+[22-Dec-2023 23:00:32 America/Bogota] PHP   2. RoutesController->index() C:\wamp64\www\api1\index.php:12
+[22-Dec-2023 23:00:32 America/Bogota] PHP   3. include() C:\wamp64\www\api1\controllers\routes.controller.php:4
+[22-Dec-2023 23:00:32 America/Bogota] PHP   4. include() C:\wamp64\www\api1\routes\routes.php:15
+[22-Dec-2023 23:00:32 America/Bogota] PHP   5. PostController::postData($table = [0 => 'materia'], $data = ['title' => 'mi materia', 'description' => 'la DEScripcion que le di']) C:\wamp64\www\api1\routes\services\post.php:10
+[22-Dec-2023 23:00:32 America/Bogota] PHP   6. PostModel::postData($table = [0 => 'materia'], $data = ['title' => 'mi materia', 'description' => 'la DEScripcion que le di']) C:\wamp64\www\api1\controllers\post.controller.php:8
+[22-Dec-2023 23:00:32 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'courses.array' doesn't exist in C:\wamp64\www\api1\models\post.model.php:11
+Stack trace:
+#0 C:\wamp64\www\api1\models\post.model.php(11): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\post.controller.php(8): PostModel::postData(Array, Array)
+#2 C:\wamp64\www\api1\routes\services\post.php(10): PostController::postData(Array, Array)
+#3 C:\wamp64\www\api1\routes\routes.php(15): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\post.model.php on line 11
+[22-Dec-2023 23:10:23 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'descriptionn' in 'field list' in C:\wamp64\www\api1\models\post.model.php:12
+Stack trace:
+#0 C:\wamp64\www\api1\models\post.model.php(12): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\post.controller.php(8): PostModel::postData(Array, Array)
+#2 C:\wamp64\www\api1\routes\services\post.php(10): PostController::postData(Array, Array)
+#3 C:\wamp64\www\api1\routes\routes.php(15): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\post.model.php on line 12
+[22-Dec-2023 23:11:00 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'descriptionn' in 'field list' in C:\wamp64\www\api1\models\post.model.php:12
+Stack trace:
+#0 C:\wamp64\www\api1\models\post.model.php(12): PDOStatement->execute()
+#1 C:\wamp64\www\api1\controllers\post.controller.php(8): PostModel::postData(Array, Array)
+#2 C:\wamp64\www\api1\routes\services\post.php(10): PostController::postData(Array, Array)
+#3 C:\wamp64\www\api1\routes\routes.php(15): include('C:\\wamp64\\www\\a...')
+#4 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in C:\wamp64\www\api1\models\post.model.php on line 12

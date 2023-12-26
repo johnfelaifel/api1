@@ -4,7 +4,7 @@ class Connection{
 
     static public function infoDatabase(){        
         $infoDB = array(
-            "database" => "simec",
+            "database" => "courses",
             "user" => "john",
             "password" => "1234",
 
@@ -28,4 +28,13 @@ class Connection{
         }
         return $link;
     }
+
+    static public function getColumnsData($table){
+        $databese = Connection::infoDatabase()['database'];
+        $sql = "SELECT COLUMN_NAME AS item FROM information_schema.columns WHERE table_schema = '$databese' AND table_name = '$table'";
+        return Connection::connect()
+        ->query($sql)
+        ->fetchAll(PDO::FETCH_OBJ);
+    }
+
 }
