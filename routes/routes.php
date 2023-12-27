@@ -22,7 +22,12 @@ if(count($routesArray) == 0){
         case "POST":
             include "services/post.php";
             break;
+/*             
+        case "PUT":
+            include "services/put.php";
+            break;
         
+ */          
         
     }
 }

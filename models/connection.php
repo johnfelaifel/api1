@@ -44,6 +44,7 @@ class Connection
             ->fetchAll(PDO::FETCH_OBJ);
     }
 
+    //Token
     static public function jwt($id, $email)
     {
         $time = time();
