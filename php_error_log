@@ -364,3 +364,11 @@ Stack trace:
 #5 C:\wamp64\www\api1\index.php(12): RoutesController->index()
 #6 {main}
   thrown in C:\wamp64\www\api1\models\post.model.php on line 12
+[26-Dec-2023 18:24:15 America/Bogota] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\wamp64\www\api1\models\connection.php on line 57 and at least 3 expected in C:\wamp64\www\api1\vendor\firebase\php-jwt\src\JWT.php:199
+Stack trace:
+#0 C:\wamp64\www\api1\models\connection.php(57): Firebase\JWT\JWT::encode(Array, 'asd1212fsd')
+#1 C:\wamp64\www\api1\routes\routes.php(5): Connection::jwt('22', 'john@gmail.com')
+#2 C:\wamp64\www\api1\controllers\routes.controller.php(4): include('C:\\wamp64\\www\\a...')
+#3 C:\wamp64\www\api1\index.php(12): RoutesController->index()
+#4 {main}
+  thrown in C:\wamp64\www\api1\vendor\firebase\php-jwt\src\JWT.php on line 199
